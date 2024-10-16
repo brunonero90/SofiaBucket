@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bucket Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="intro" id="intro">Sofia, il gioco dei quadrati!</div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="buckets">
+            <div class="bucket" id="bucket1" data-color="red">0</div>
+            <div class="bucket" id="bucket2" data-color="blue">0</div>
+            <div class="bucket" id="bucket3" data-color="green">0</div>
+            <div class="bucket" id="bucket4" data-color="yellow">0</div>
+        </div>
+        <div class="timer">
+            <div id="timeBar"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
